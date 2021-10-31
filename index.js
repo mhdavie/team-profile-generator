@@ -85,7 +85,7 @@ function main() {
         {
             type: 'input',
             name: 'internName',
-            message: "Please provide the intern name"
+            message: "Please provide the intern's name"
         },
         {
             type: 'input',
@@ -117,6 +117,38 @@ function main() {
 
     }
     function addingEngineer() {
+        inquirer.prompt([
+            {
+                type: 'input',
+                name: 'engineerName',
+                message: "Please provide the engineers's name"
+            },
+            {
+                type: 'input',
+                name: 'engineerId',
+                message: "Please provide the engineers's Id"
+            },
+            {
+                type: 'input',
+                name: 'engineerEmail',
+                message: "Please provide the engineers's Email"
+            },
+            {
+                type: 'input',
+                name: 'engineerGitHubUsername',
+                message: "Please provide the engineers's GitHub Username"
+            }]).then((answers) => {
+                const enginner = new Engineer (
+                    answers.engineerName,
+                    answers.engineerId,
+                    answers.engineerEmail,
+                    answers.engineerGitHubUsername,
+                ); 
+                teamMembers.push(engineer);
+                ids.push(answers.engineerId);
+                creatingTeam()
+            })
+
 
     }
 
