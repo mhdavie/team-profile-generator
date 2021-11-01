@@ -138,7 +138,7 @@ function main() {
                 name: 'engineerGitHubUsername',
                 message: "Please provide the engineers's GitHub Username"
             }]).then((answers) => {
-                const enginner = new Engineer (
+                const engineer = new Engineer (
                     answers.engineerName,
                     answers.engineerId,
                     answers.engineerEmail,
