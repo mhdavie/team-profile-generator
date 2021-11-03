@@ -43,9 +43,9 @@ const makeTeam = team => {
         <div class="card" style="width: 18rem;">
             <div class="card-header">
            ${intern.name} <br/>
-           <i class="fas fa-glasses"></i>Engineer</div>
+           <i class="fas fa-glasses"></i>Intern</div>
            <ul class="list-group list-group-flush">
-            <li class="list-group-item">ID: ${intern.id}</li>
+            <li class="list-group-item">ID:${intern.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="mailto:${intern.email}">${intern.email}</a></span></li>
             <li class="list-group-item">School: ${intern.school}</li>
             </ul>

@@ -104,7 +104,7 @@ function main() {
         } ]).then((answers) => {
             const intern = new Intern (
                 answers.internName,
-                answers.internrId,
+                answers.internId,
                 answers.internEmail,
                 answers.internSchool,
             ); 
