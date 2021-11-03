@@ -2,14 +2,46 @@ body {
     font-family:monospace;
 }
 
-li:hover {
-    background-color: lightgrey;
+
+header {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.591);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin: 15px;
+    padding: 10px;
 }
 
-.card-title{
-    color: rgb(95, 37, 161);
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
 }
-a:hover {
-    background-color: rgb(205, 233, 235);        
-    border-radius: 10%;
+
+.card {
+    padding: 10px;
+    margin: 15px;
+}
+
+.card-header {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.584);
+
+}
+
+.list-group {
+    color: black;
+}
+
+
+.list-group-item {
+    white-space: nowrap;
+    overflow: visible;
+}
+
+#email {
+    color:rgba(0, 0, 255, 0.584);
 }

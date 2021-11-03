@@ -42,15 +42,15 @@ function main() {
             },
             {
                 type: 'input',
-                name: 'managerPhone',
-                message: "Please provide the team manager's phone number"
+                name: 'officeNumber',
+                message: "Please provide the team manager's office phone number"
             }
         ]).then((answers) => {
             const manager = new Manager(
                 answers.managerName,
                 answers.managerId,
                 answers.managerEmail,
-                answers.managerPhone,
+                answers.officeNumber,
             ); 
             teamMembers.push(manager);
             ids.push(answers.managerId);
