@@ -30,6 +30,7 @@ Full-Stack Application using Inquirer to form CLI questions and Jest for testing
 
 * [Team Profile Generator GitHub Repository ](https://github.com/mhdavie/team-profile-generator)
 
+
 ## Walkthrough Video
 
 * [Team Profile Generator Video](https://watch.screencastify.com/v/dMJDhifUGRUDaWONVNQr)
