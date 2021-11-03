@@ -1,6 +1,3 @@
-[APM](https://img.shields.io/apm/l/vim-mode) 
-
-
 # team-profile-generator
 
 
@@ -26,16 +23,16 @@ Full-Stack Application using Inquirer to form CLI questions and Jest for testing
 * JavaScript
 * Node.js
 * Inquirer
-* Path
 * Jest
 
 
 ## GitHub Repository
 
-* [Team Profile Generator GitHub](https://github.com/mhdavie/team-profile-generator)
+* [Team Profile Generator GitHub Repository ](https://github.com/mhdavie/team-profile-generator)
 
 ## Walkthrough Video
 
+* [Team Profile Generator Video](https://watch.screencastify.com/v/dMJDhifUGRUDaWONVNQr)
 
 ## Application 
 
