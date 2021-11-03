@@ -39,4 +39,8 @@ Full-Stack Application using Inquirer to form CLI questions and Jest for testing
 
 ![](assets/walkthroughvideo.gif)
 
+## Screenshots
+
 ![](assets\test.png)
+
+![](assets\appteam.png)
