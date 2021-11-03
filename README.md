@@ -1,4 +1,4 @@
-![Badge for GitHub](https://img.shields.io/github/languages/top/mhdavie/team-profile-generator?style=flat&logo=appveyor) 
+[APM](https://img.shields.io/apm/l/vim-mode) 
 
 
 # team-profile-generator
@@ -6,7 +6,7 @@
 
 ## Description 
 
-Full-Stack Application using Inquirer to form CLI questions and Jest for testing purposes.
+Full-Stack Application using Inquirer to form CLI questions and Jest for testing purposes.This project required building a Node.js command-line application that takes in information about employees and generates an HTML webpage that displays summaries for each person. Tests were written for each part of the code using Jest to ensure that it passes all of them.
 
 ## Table of Contents
 * [Description](#description)
@@ -21,19 +21,22 @@ Full-Stack Application using Inquirer to form CLI questions and Jest for testing
 
 ## Technologies 
 
+* HTML
+* CSS
+* JavaScript
 * Node.js
-* NPM
-* inquirer
+* Inquirer
+* Path
 * Jest
-* Test
 
 
 ## GitHub Repository
 
+* [Team Profile Generator GitHub](https://github.com/mhdavie/team-profile-generator)
 
 ## Walkthrough Video
 
 
 ## Application 
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](assets/walkthroughvideo.gif)
+![](assets/walkthroughvideo.gif)

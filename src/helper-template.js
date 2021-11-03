@@ -56,7 +56,7 @@ const makeTeam = team => {
     }
 //for loop for all employees
 
-for (let i=0; i< team.lenght; i++){
+for (let i=0; i< team.length; i++){
     if (team[i].getRole() ==="Manager"){
         makeManager(team[i]);
     }
